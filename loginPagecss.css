@@ -1,0 +1,240 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#logo a{
+    text-decoration: none;
+    color: red;
+
+}
+#netflixLogo{
+    padding-top:20px;
+    padding-left: 40px;
+}
+#backGroundImg {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    transform: scale(1.2);
+    z-index: -1; 
+  }
+
+#login{
+    height: 800px;
+    width: 600px;
+    background-color: black;
+    margin-left: 600px;
+    transform: translateY(-50px);
+    border-radius: 10px;
+    
+}
+
+#signInText{
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    margin-left: 135px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    transform: translateY(60px);
+
+
+}
+#credentials form {
+    color: dimgray;
+    padding-top: 100px;
+    margin-left: 130px;
+}
+input {
+    border: none;
+    outline: none;
+}
+
+#userName {
+    padding: 20px;
+    width: 350px;
+    border-radius: 2px;
+    background-color: rgb(39, 40, 41);
+    font-size: 17px;
+    color: white;
+}
+
+#password {
+    padding: 20px;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 2px;
+    background-color: rgb(39, 40, 41);
+    font-size: 17px;
+    color: white;
+}
+#btn{
+    margin-top: 50px;
+    margin-right: 10px;
+    padding:10px;
+    width: 390px;
+    background-color:red;
+    color:white;
+    border-radius: 7px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#checkBoxBtn{
+    margin-top:20px;
+    font-family: "Roboto", sans-serif;
+}
+#RememberMe{
+    font-size: 17px;
+    color:gray;
+    font-family: "Roboto", sans-serif;
+}
+#needHelp{
+    text-decoration: none;
+    color:grey;
+    float: right;
+    padding-right: 120px;
+    padding-top:18px;
+    font-family: "Roboto", sans-serif;
+}
+#needHelp:hover{
+    text-decoration: underline;
+}
+
+#secondSlide{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+
+#belowThat{
+    display: flex;
+    align-items: center;
+    color:dimgray;
+    text-decoration: none;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+#belowThat p{
+    margin-right: 25;
+    padding-left:130px;
+    font-size: 20px;
+
+}
+#belowThat a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+#belowThat a:hover{
+    text-decoration: underline;
+}
+
+#lastContent{
+    color:white;
+    margin-top: 50px;
+}
+
+#lastContent pre{
+    font-family: "Roboto", sans-serif;
+
+}
+#lastContent a{
+    text-decoration: none;
+    color: rgb(47, 47, 218);
+}
+#lastContent pre{
+    color:grey;
+}
+
+#secondSlide{
+    padding-top: 60px;
+    padding-left: 300px;
+    font-family: "Roboto", sans-serif;
+    color:grey;
+    font-size:16px;
+}
+
+
+#footerList {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50px;
+    width: 80%;
+    margin-top: 25px;
+    transform: translateX(-115px);
+}
+
+#footerList li{
+    padding-right: 100px;
+    list-style: none;
+    
+}
+
+#footerList a {
+    text-decoration: none;
+    margin-right:200px;
+    color: dimgray;
+    font-size: large;
+    margin:80px;
+    
+}
+#footerList a:hover{
+    text-decoration: underline;
+}
+
+#footerList2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 10px;
+    width: 80%;
+    margin-bottom: 50px;
+    font-size: 16px;
+    transform: translateX(-35px);
+}
+#footerList2 li{
+    padding-right: 150px;
+    list-style: none;
+    
+}
+#footerList2 a{
+    text-decoration: none;
+    color: dimgray;
+}
+#footerList2 a:hover{
+    text-decoration: underline;
+}
+#dropdown{
+    background-color: transparent;
+    color:grey;
+    padding: 20px;
+    width: 170px;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+#dropdown option{
+    background-color:black;
+    font-family: "Roboto", sans-serif;
+}
+
+#learnMore:hover{
+    text-decoration: underline;
+
+}

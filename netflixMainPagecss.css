@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+#mainText{
+    color: white;
+}
+#mainContent{
+    display: flex;
+    justify-content: center;
+    transform: translateY(200px);
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#user1{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    margin-top: 250px;
+    margin-left: 450px;
+    padding:20px;
+    transition: 0.2s ease-in;
+    border-radius: 3px;
+}
+
+#user1:hover{
+    transform: scale(1.1);
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+
+
+#user2 {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 800px;
+    margin-top: -190px; 
+    padding: 20px;
+    transition: 0.3s ease-in;
+    border-radius: 3px;
+}
+
+#user2:hover{
+    transform: scale(1.1);
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+#userNames{
+    color:white;
+    padding-left:450px;
+    margin-top:20px;
+    font-family: "Roboto", sans-serif;
+}
+#logo{
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+#users a{
+    text-decoration: none;
+    color:black;
+}
